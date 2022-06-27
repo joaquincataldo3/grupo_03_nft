@@ -1,11 +1,16 @@
 # grupo_03_nft
 
-**nft** es un sitio web dedicado a la comercialización de bebidas alcohólicas de alta gama, principalmente vinos.
-La venta de los productos se efectúa desde la página, mediante la apertura de una cuenta como “Cliente” seguido de la compra virtual de los artículos seleccionados y agregados al carrito, los cuales serán entregados por delivery al domicilio de referencia brindado por el cliente.
-La empresa tiene como nicho objetivo de clientes a la comunidad, mayor de 18 años, que sienta una inmensa pasión por el gusto de descubrir nuevas y variadas etiquetas de calidad.
-Las bebidas alcohólicas ofrecidas son Vinos, Gin, Whisky, entre otros.
+**NFT**
+Nuestro sitio brindará una plataforma para la difusión y comercialización de NFTs. La audiencia del mismo será variada ya que el sitio ofrecerá una amplia oferta que se adaptara a los gustos de los usuarios.
+
+El rango etario que consideramos que puede formar parte de nuestra audiencia es de 15-60 años..
 
 ## Páginas de Referencia:
+- https://opensea.io/ ->
+- https://nftscoring.com/ ->
+- https://foundation.app/ ->
+- https://enigma.art/ ->
+
 >- https://www.dvino.com.ar  -> filtros y categorías
 >- https://www.varietalvinoteca.com.ar -> animaciones de página principal
 >- https://frappe.com.ar -> animaciones de página principal, estilo general de la página, datos requeridos para el registro del cliente y filtro de productos.
@@ -16,11 +21,11 @@ Las bebidas alcohólicas ofrecidas son Vinos, Gin, Whisky, entre otros.
 >- https://www.club-de-vinos.com -> estructura de la web.
 
 ## Integrantes del proyecto:
-- Joaquin Cataldo
-- Camilo Alejandro Chica Ochoa
-- Emilia Dekermandjian
-- Raúl Federico Lacabanne
-- Aristeo Maya Corona
+- Joaquin Cataldo: conocimientos previos de html, algo de css, JS y gráfica.
+- Camilo Alejandro Chica Ochoa: conocimientos de Visual Basic.
+- Emilia Dekermandjian: sin conocimientos previos.
+- Raúl Federico Lacabanne: conocimientos previos de html, JS, PHP, Mysql.
+- Aristeo Maya Corona: sin conocimientos previos.
 
 ### Repositorio GitHub:
 https://github.com/joaquincataldo3/grupo_03_nft
