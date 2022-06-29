@@ -23,3 +23,4 @@ El rango etario que consideramos que puede formar parte de nuestra audiencia es 
 https://github.com/joaquincataldo3/grupo_03_nft
 
 ### Tablero Trello:
+https://trello.com/invite/grupo03nft/42547dac180644207a27c30035f8f134
