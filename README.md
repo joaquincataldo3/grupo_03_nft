@@ -41,4 +41,16 @@ Background grey #f5f5f6
 Text            #000000
 ```
 
-###
+### Sprint 2
+
+Tareas:
+
+- Emi: retro.md
+
+- Emi y Camilo: home
+
+- Joaquin y Raul: detalle del producto
+
+- Camilo: carrito de compras
+
+- Aristeo: formulario de registro + log in
