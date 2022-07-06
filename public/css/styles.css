@@ -1,8 +1,57 @@
+header {
+  background-color: #6d8f4b;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
 body {
   font-family: "Gentium Book Plus", serif;
   background-color: #ebebeb;
 }
 
-h1 {
-  font-size: 2rem;
+header .logo-principal {
+  width: 40%;
+}
+
+header .lupa {
+  border: 1px solid red;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+header .burger-menu {
+  border: 1px solid purple;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+header .search-bar-container {
+  align-self: center;
+}
+
+header .search-bar-container .search-bar {
+  display: none;
+  border-radius: 3px;
+}
+
+header .nav-bar {
+  border: 1px solid red;
+  display: none;
+}
+
+
+
+header .login-wallet-container {
+  display: none;
+}
+
+footer {
+  display: flex;
 }
