@@ -31,7 +31,6 @@ header .burger-menu {
   align-items: flex-end;
 }
 
-
 header .search-bar-container {
   align-self: center;
 }
@@ -46,12 +45,61 @@ header .nav-bar {
   display: none;
 }
 
-
-
 header .login-wallet-container {
   display: none;
 }
 
+main {
+  background-color: #f5f5f6;
+  text-align: center;
+  margin: 0 auto;
+}
+
 footer {
   display: flex;
+  background-color: #c5e1a5;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer-main-container {
+  border: 1px solid red;
+}
+
+.footer-first-column {
+  border: 1px solid blue;
+}
+
+.copy-footer {
+  border: 1px solid violet;
+  margin-top: 20px;
+}
+
+.copy-footer p {
+  padding: 5px;
+}
+
+.lista1 {
+  border: 1px solid black;
+}
+
+.lista2 {
+  border: 1px solid salmon;
+}
+
+.lista3 {
+  border: 1px solid pink;
+}
+
+.social-media-container {
+  border: 1px solid orange;
+  margin-top: 20px;
+}
+
+.social-media-container h5 {
+  display: none;
+}
+
+ul {
+  width: 80%;
 }
