@@ -112,16 +112,17 @@ header .login-wallet-container {
 
       article div.main-article{
         /* border: 1px solid red; */
-          text-align: center;
+        text-align: center;
         /* width: 100%; */
-         display: flex;
-        flex-wrap: wrap; 
+        display: flex;
+        flex-wrap: wrap;
         /* align-items: baseline; */
         /* border-top: 1px solid #ebebeb; */
-        position: relative;
-        padding-bottom: 4px;
-        /* justify-content: space-between; */  
+        /* position: relative; */
+        padding-bottom: 7px;
+        /* justify-content: space-between; */
         /* border-radius: 0px 0px 0px 5px; */
+        margin: 0px;
       }
 
 
@@ -142,12 +143,12 @@ header .login-wallet-container {
 
       p.autor{
         width: 30%;
-        margin-top: -20px;
+        margin-top: -13px;
         font-size: 8px;
         display: flex;
         /* align-items: flex-start; */
         justify-content: flex-end;
-        margin-left: 10px;
+        margin-left: 15px;
     }
       
 
@@ -229,11 +230,11 @@ header .login-wallet-container {
       }
 
       body main section.part3 div h2.last{
-        position: relative;
+        position: absolute;
       }
 
       #last{
-        position: relative;
+        position: absolute;
         border: none;
         left: -30px;
         bottom: 0px;
