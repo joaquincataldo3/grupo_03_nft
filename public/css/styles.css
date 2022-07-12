@@ -213,11 +213,13 @@ header .login-wallet-container {
       }
 
       div.nft-secondary-container article:nth-child(2) img{
-        height: 472px;
+        max-height: 100%;
+        max-width: 100%;
       }
 
       div.nft-secondary-container article:nth-child(3) img{
-        height: 472px;
+        max-height: 100%;
+        max-width: 100%;
       }
       /* Parte 3 del main......................................... */
 
@@ -300,3 +302,75 @@ ul {
 }
 
 /* Termina los estilos del footer........................................................................................ */
+
+/* Medias queries */
+@media (min-width: 768px) {
+
+  header  {
+    display: flex;
+  }
+
+  header .logo-principal {
+    width: 17%;
+  }
+
+  body header div.search-lupa-container{
+    width: 30%;
+  }
+
+  header .search-bar-container .search-bar {
+    display: flex;
+    border-radius: 3px;
+    width: 100%;
+  }
+
+  header .lupa {
+    /* border: 1px solid red; */
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: -21px;
+    margin-left: -20px;
+    }
+
+    header .search-bar-container {
+      align-self: center;
+      width: 100%;
+  }
+
+  header .nav-bar{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+  }
+
+  header .nav-bar ul{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header .nav-bar ul li{
+    padding: 8px;
+    }
+  
+  header .login-wallet-container {
+    display: flex;
+    width: 9%;
+    margin: 14px;
+    font-size: 30px;
+    justify-content: space-around;
+  }
+  
+  header .burger-menu {
+    border: 1px solid purple;
+    width: 70px;
+    display: none;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+
+  
+}
