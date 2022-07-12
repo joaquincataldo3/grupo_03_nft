@@ -294,8 +294,9 @@ footer {
   display: none;
 }
 
-ul {
-  width: 80%;
+.lista1 p {
+  border: 1px solid red;
+  margin: 0 auto;
 }
 
 /* Termina los estilos del footer........................................................................................ */
