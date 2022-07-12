@@ -1,18 +1,22 @@
-header {
-  background-color: #6d8f4b;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 body {
   font-family: "Gentium Book Plus", serif;
   background-color: #ebebeb;
 }
 
+/* Estilos del header....................................................................................................*/
+
 header .logo-principal {
   width: 40%;
+}
+
+header {
+  background-color: #6d8f4b;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header .lupa {
@@ -31,7 +35,6 @@ header .burger-menu {
   align-items: flex-end;
 }
 
-
 header .search-bar-container {
   align-self: center;
 }
@@ -46,13 +49,253 @@ header .nav-bar {
   display: none;
 }
 
-
-
 header .login-wallet-container {
   display: none;
 }
 
+/* Termina estilos del header........................................................................................... */
+
+/* Estilos del main..................................................................................................... */
+
+      main {
+        background-color: #ebebeb;
+        text-align: center;
+        margin: 0 auto;
+      }
+      
+      /* Parte 1 del main................................. */
+
+      body main section.part1{
+        background-image: url("../public/imgs/future.jpg");
+      }
+
+      body main section div.tprincipal{
+        text-align: center;
+      }
+
+      body main section div.tsecundari p{
+        text-align: center;
+      }
+
+      .explore-create-container{
+       padding: 2px;
+      }
+      .btn{
+        width: 20%;
+        padding:10px ;
+        background-color:rgb(4, 67, 130);
+        color: white;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px 5px 5px 5px;
+      }
+
+      .btn-2{
+        width: 20%;
+        padding:10px ;
+        background-color: white;
+        color: rgb(4, 67, 130);
+        border: none;
+        border-radius: 5px 5px 5px 5px;
+      }
+
+      section.part1 div.nft-principal-container article{
+       /*  border: 1px solid red; */
+        background-color: rgba(102, 102, 102, 0.519);
+        width: 70%;
+        /* margin: 10px; */
+        /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
+        margin: auto;
+        border-radius: 10px 10px 10px 10px;
+
+      }
+
+      article div.main-article{
+        /* border: 1px solid red; */
+        text-align: center;
+        /* width: 100%; */
+        display: flex;
+        flex-wrap: wrap;
+        /* align-items: baseline; */
+        /* border-top: 1px solid #ebebeb; */
+        /* position: relative; */
+        padding-bottom: 7px;
+        /* justify-content: space-between; */
+        /* border-radius: 0px 0px 0px 5px; */
+        margin: 0px;
+      }
+
+
+      div.nft-principal-container article div img{
+        width: 15%;
+        margin: auto;
+      }
+
+      p.collection{
+        width: 77%;
+        font-size: 14px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 8px;
+
+      }
+
+      p.autor{
+        width: 30%;
+        margin-top: -13px;
+        font-size: 8px;
+        display: flex;
+        /* align-items: flex-start; */
+        justify-content: flex-end;
+        margin-left: 15px;
+    }
+      
+
+      main section article img{
+        width: 100%;
+      padding: auto;
+      border-radius: 10px 10px 0px 0px;
+      /* border-bottom: 1px solid #ebebeb; */
+      }
+
+      body main section div.nft-principal-container {
+        /* border: 1px solid orange; */
+        width: auto;
+        text-align: center;
+        width: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+      /* Parte 2 del main......................................... */
+
+      section.part2 div.nft-secondary-container article{
+        width: 70%;
+        margin: auto;
+        border-radius: 10px 10px 10px 10px;
+        /* margin-bottom: 20px; */
+        margin-bottom: -50px;
+      }
+
+      section.part2 div.nft-secondary-container article p.feet1{
+        position: relative;
+        top: -81px;
+        left: 4px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        width: 169px;
+      }
+
+      section.part2 div.nft-secondary-container article p.feet2{
+        position: relative;
+        top: -81px;
+        left: 4px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        width: 169px;
+      }
+
+      section.part2 div.nft-secondary-container article p.feet3{
+        position: relative;
+        top: -57px;
+        left: 4px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        width: 250px;
+      }
+
+      section.part2 div.nft-secondary-container article img{
+        border-radius: 10px 10px 10px 10px;
+        margin-top: 10px;
+      }
+
+      div.nft-secondary-container article:nth-child(2) img{
+        height: 472px;
+      }
+
+      div.nft-secondary-container article:nth-child(3) img{
+        height: 472px;
+      }
+      /* Parte 3 del main......................................... */
+
+      .top-collection-container{
+        display: flex;
+      }
+
+      body main section.part3 div h2:nth-child(1){
+        margin: auto;
+      }
+
+      body main section.part3 div h2.last{
+        position: absolute;
+      }
+
+      #last{
+        position: absolute;
+        border: none;
+        left: -30px;
+        bottom: 0px;
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 20px;
+        background: none;
+        color:rgb(4, 67, 130) ;
+      }
+
+/* Termina estilos del main............................................................................................. */
+
+/* Estilos del footer................................................................................................... */
+
 footer {
   display: flex;
+  background-color: #c5e1a5;
+  text-align: center;
+  margin: 0 auto;
 }
 
+.footer-main-container {
+  border: 1px solid red;
+}
+
+.footer-first-column {
+  border: 1px solid blue;
+}
+
+.copy-footer {
+  border: 1px solid violet;
+  margin-top: 20px;
+}
+
+.copy-footer p {
+  padding: 5px;
+}
+
+.lista1 {
+  border: 1px solid black;
+}
+
+.lista2 {
+  border: 1px solid salmon;
+}
+
+.lista3 {
+  border: 1px solid pink;
+}
+
+.social-media-container {
+  border: 1px solid orange;
+  margin-top: 20px;
+}
+
+.social-media-container h5 {
+  display: none;
+}
+
+ul {
+  width: 80%;
+}
+
+/* Termina los estilos del footer........................................................................................ */
