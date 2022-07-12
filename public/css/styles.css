@@ -234,10 +234,10 @@ header .login-wallet-container {
       }
 
       #last{
-        position: absolute;
+        /* position: absolute; */
         border: none;
-        left: -30px;
-        bottom: 0px;
+        /* left: -30px;
+        bottom: 0px; */
         font-weight: bold;
         text-decoration: underline;
         font-size: 20px;
