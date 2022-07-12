@@ -1,0 +1,34 @@
+
+
+main .main-top-section-container .product-image-description-container {
+    border: 1px solid red;
+    width: 90%;
+    margin: 0px auto;
+}
+
+main .main-top-section-container .product-image-description-container img {
+    width: 100%
+}
+
+main .main-top-section-container .product-image-description-container .collection-container {
+    border: 1px solid grey;
+    width: 90%;
+    border-radius: 5%;
+    margin: 1% auto;
+}
+
+
+main .main-top-section-container .product-image-description-container .collection-container div .nft-collection-title {
+    width: 100%;
+    border: 1px solid red;
+}
+
+main .main-top-section-container .product-image-description-container .collection-container div p {
+    width: 35%;
+    border: 1px solid pink;
+}
+
+main .main-top-section-container .product-image-description-container .collection-container div .nft-collection-subtitle {
+    margin: 15px 0px;
+    border: 1px solid green;
+} 
