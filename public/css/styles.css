@@ -248,6 +248,62 @@ header .login-wallet-container {
         color:rgb(4, 67, 130) ;
       }
 
+      .collection-container{
+        border: 3px solid blue;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+
+      .user {
+        border: 3px solid orange;
+        width: 100%;
+        display: flex;
+        
+        margin: auto;
+      }
+
+     div.user-container article h4.number{
+      margin-right: 8px;
+      margin-left: 10px;
+     }
+
+      .img-nft-user{
+        width: 50px;
+        height: 50px;
+        border-radius: 90%;
+      }
+
+      .name-floor-container{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: -16px;
+      }
+
+      div.user-container article div h5.name{
+        width: 100%;
+      }
+
+     div.user-container article div p.floor{
+      width: 101%;
+      margin-top: -16px;
+      font-size: 14px;
+     }
+
+     .percent-price-container{
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: -16px;
+     }
+
 /* Termina estilos del main............................................................................................. */
 
 /* Estilos del footer................................................................................................... */
