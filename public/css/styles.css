@@ -263,10 +263,15 @@ header .login-wallet-container {
         margin: auto;
       }
 
-     div.user-container article h4.number{
-      margin-right: 8px;
-      margin-left: 10px;
-     }
+      div.user-container article .number{
+      margin: auto;
+      }
+
+      div.user-container article .img-users{
+        margin: auto;
+        margin-right: 10px;
+      }
+      
 
       .img-nft-user{
         width: 50px;
@@ -275,34 +280,53 @@ header .login-wallet-container {
       }
 
       .name-floor-container{
-        width: 60%;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-top: -16px;
+        width: 50%;
+        margin-top: -4px;
       }
 
       div.user-container article div h5.name{
-        width: 100%;
+        margin-left: -5px;
+        position: absolute;
       }
 
      div.user-container article div p.floor{
-      width: 101%;
-      margin-top: -16px;
       font-size: 14px;
+      margin-left: -4px;
+      margin-top: 47px;
+      position: absolute;
      }
 
      .percent-price-container{
-        width: 20%;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-top: -16px;
+      width: 30%;
+      margin-top: -23px;
      }
+
+    div.user-container article div.percent-price-container div.percent{
+      margin: 42px 0px 0px 3px;
+    }
+
+    div.user-container article div.percent-price-container p{
+      margin-left: 35px;
+      margin-top: 38px;
+    }
+
+    div.user-container article div.percent-price-container div.ethereum-price-container{
+      display: flex;
+      margin-top: -19px;
+      margin-right: -5px;
+    }
+
+    div.user-container article div.percent-price-container div svg{
+      width: 20%;
+      margin: auto;
+    }
+
+    div.user-container article div.percent-price-container div p.price{
+      width: 70%;
+      margin-left: -53px;
+      margin-top: 10px;
+      margin-bottom: 14px;
+    }
 
 /* Termina estilos del main............................................................................................. */
 
