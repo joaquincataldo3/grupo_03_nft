@@ -213,17 +213,20 @@ header .login-wallet-container {
       }
 
       div.nft-secondary-container article:nth-child(2) img{
-        height: 472px;
+        max-height: 100%;
+        max-width: 100%;
       }
 
       div.nft-secondary-container article:nth-child(3) img{
-        height: 472px;
+        max-height: 100%;
+        max-width: 100%;
       }
       /* Parte 3 del main......................................... */
 
       .top-collection-container{
         display: flex;
       }
+
 
       body main section.part3 div h2:nth-child(1){
         margin: auto;
@@ -234,16 +237,72 @@ header .login-wallet-container {
       }
 
       #last{
-        position: absolute;
+        /* position: absolute; */
         border: none;
-        left: -30px;
-        bottom: 0px;
+        /* left: -30px;
+        bottom: 0px; */
         font-weight: bold;
         text-decoration: underline;
         font-size: 20px;
         background: none;
         color:rgb(4, 67, 130) ;
       }
+
+      .collection-container{
+        border: 3px solid blue;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+
+      .user {
+        border: 3px solid orange;
+        width: 100%;
+        display: flex;
+        
+        margin: auto;
+      }
+
+     div.user-container article h4.number{
+      margin-right: 8px;
+      margin-left: 10px;
+     }
+
+      .img-nft-user{
+        width: 50px;
+        height: 50px;
+        border-radius: 90%;
+      }
+
+      .name-floor-container{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: -16px;
+      }
+
+      div.user-container article div h5.name{
+        width: 100%;
+      }
+
+     div.user-container article div p.floor{
+      width: 101%;
+      margin-top: -16px;
+      font-size: 14px;
+     }
+
+     .percent-price-container{
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: -16px;
+     }
 
 /* Termina estilos del main............................................................................................. */
 
@@ -301,3 +360,75 @@ ul {
 }
 
 /* Termina los estilos del footer........................................................................................ */
+
+/* Medias queries */
+@media (min-width: 768px) {
+
+  header  {
+    display: flex;
+  }
+
+  header .logo-principal {
+    width: 17%;
+  }
+
+  body header div.search-lupa-container{
+    width: 30%;
+  }
+
+  header .search-bar-container .search-bar {
+    display: flex;
+    border-radius: 3px;
+    width: 100%;
+  }
+
+  header .lupa {
+    /* border: 1px solid red; */
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: -21px;
+    margin-left: -20px;
+    }
+
+    header .search-bar-container {
+      align-self: center;
+      width: 100%;
+  }
+
+  header .nav-bar{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+  }
+
+  header .nav-bar ul{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header .nav-bar ul li{
+    padding: 8px;
+    }
+  
+  header .login-wallet-container {
+    display: flex;
+    width: 9%;
+    margin: 14px;
+    font-size: 30px;
+    justify-content: space-around;
+  }
+  
+  header .burger-menu {
+    border: 1px solid purple;
+    width: 70px;
+    display: none;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+
+  
+}
