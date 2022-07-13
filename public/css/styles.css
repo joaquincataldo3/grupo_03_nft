@@ -258,6 +258,7 @@ footer {
 
 .footer-main-container {
   border: 1px solid red;
+  width: 100%;
 }
 
 .footer-first-column {
