@@ -101,7 +101,7 @@ header .login-wallet-container {
 
       section.part1 div.nft-principal-container article{
        /*  border: 1px solid red; */
-        background-color: rgba(102, 102, 102, 0.519);
+        background-color: rgb(255, 252, 252);
         width: 70%;
         /* margin: 10px; */
         /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
@@ -212,19 +212,25 @@ header .login-wallet-container {
         margin-top: 10px;
       }
 
-      div.nft-secondary-container article:nth-child(2) img{
-        max-height: 100%;
-        max-width: 100%;
-      }
+      div.nft-secondary-container article:nth-child(1) img{
+        width: 224;
+        height: 331.138px;
+      } 
+
+       div.nft-secondary-container article:nth-child(2) img{
+        width: 224;
+        height: 331.138px;
+      } 
 
       div.nft-secondary-container article:nth-child(3) img{
-        max-height: 100%;
-        max-width: 100%;
-      }
+        width: 224;
+        height: 331.138px;
+      } 
       /* Parte 3 del main......................................... */
 
       .top-collection-container{
         display: flex;
+        margin-top: 40px;
       }
 
 
@@ -242,23 +248,33 @@ header .login-wallet-container {
         /* left: -30px;
         bottom: 0px; */
         font-weight: bold;
-        text-decoration: underline;
+        /* text-decoration: underline; */
         font-size: 20px;
         background: none;
         color:rgb(4, 67, 130) ;
       }
 
       .collection-container{
-        border: 3px solid blue;
+       /*  border: 3px solid blue; */
         display: flex;
         justify-content: space-around;
         flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+
+      
+
+      .user-container{
+       width: 90%;
+       margin: auto;
       }
 
       .user {
-        border: 3px solid orange;
+        /* border: 3px solid orange; */
         width: 100%;
         display: flex;
+        border-bottom: 3px solid rgb(198, 198, 198);
         
         margin: auto;
       }
@@ -319,6 +335,7 @@ header .login-wallet-container {
     div.user-container article div.percent-price-container div svg{
       width: 20%;
       margin: auto;
+      margin-left: 19px;
     }
 
     div.user-container article div.percent-price-container div p.price{
@@ -386,7 +403,28 @@ ul {
 /* Termina los estilos del footer........................................................................................ */
 
 /* Medias queries */
-@media (min-width: 768px) {
+
+@media (min-width: 426px){
+
+  div.nft-secondary-container article:nth-child(1) img{
+    width: 537.600;
+    height: 537.600px;
+  }
+
+  div.nft-secondary-container article:nth-child(2) img{
+    width: 537.600;
+    height: 537.600px;
+  }
+
+  div.nft-secondary-container article:nth-child(3) img{
+    width: 537.600;
+    height: 537.600px;
+  }
+
+
+}
+
+@media (min-width: 769px) {
 
   header  {
     display: flex;
@@ -414,12 +452,75 @@ ul {
     align-items: flex-end;
     margin-top: -21px;
     margin-left: -20px;
+  }
+
+  section.part2 div.nft-secondary-container{
+    display: flex;
+  }
+
+  section.part2 div.nft-secondary-container article{
+    width: 21%;
+    /* margin: auto; */
+    border-radius: 10px 10px 10px 10px;
+    /* margin-bottom: 20px; */
+    margin-bottom: -50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  div.nft-secondary-container article img{
+    width: 281.6px;
+    height: 537.6px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  section.part2 div.nft-secondary-container article p.feet3{
+    position: relative;
+    top: -76px;
+    left: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 250px;
+  }
+ /*  div.nft-secondary-container article:nth-child(1) img{
+    width: 400.600px;
+    height: 537.600px;
+  }
+
+  div.nft-secondary-container article:nth-child(2) img{
+    width: 400.600px;
+    height: 537.600px;
+  }
+
+  div.nft-secondary-container article:nth-child(3) img{
+    width: 400.600px;
+    height: 537.600px;
+  } */
+
+    .collection-container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+
+    .user-container{
+      width: 45%;
     }
 
     header .search-bar-container {
       align-self: center;
       width: 100%;
-  }
+    }
 
   header .nav-bar{
     display: flex;
@@ -435,7 +536,7 @@ ul {
 
   header .nav-bar ul li{
     padding: 8px;
-    }
+  }
   
   header .login-wallet-container {
     display: flex;
@@ -453,6 +554,112 @@ ul {
     align-items: flex-end;
   }
 
+/*   section.part1{
+    display: flex;
+    flex-direction: row;
+  } */
+
+ /*  section.part1 div.tprincipal{
+    position: relative;
+    width: 100%;
+    top: 55px;
+  } */
+
+ /*  section.part1 div.tsecundari{
+    bottom: -120px;
+    width: 265px;
+    position: absolute; */
+    /* left: -253px; */
+   /*  top: 198px;
+    right: 664px;
+  } */
+
+  /* section.part1 div.explore-create-container{
+    left: -897px;
+    position: relative;
+    margin-top: 377px;
+    display: flex;
+    margin-left: -187px;
+    margin-bottom: 46px;
+    top: -61px;
+  } */
+  
+  .part1{
+    display: flex;
+  }
+
+  .principal-secondary-btn-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 131px;
+    width: 50%;
+    margin-top: 148px;
+  }
 
   
+
+
+.explore-create-container {
+  padding: 2px;
+  width: 348px;
+  margin: auto auto 103px;
+}
+
+
+
+}
+
+
+@media (min-width: 1025px) {
+
+  .collection-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .user-container{
+    width: 30%;
+  }
+
+  section.part2 div.nft-secondary-container article{
+    width: 9%;
+    padding: 42px;
+    /* margin: auto; */
+    border-radius: 10px 10px 10px 10px;
+    /* margin-bottom: 20px; */
+    margin-bottom: -50px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+    /* justify-content: space-around;*/
+  }
+
+
+  div.nft-secondary-container article img{
+    width: 286.6px;
+    height: 537.6px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  .explore-create-container {
+    padding: 2px;
+    width: 348px;
+    margin: auto auto 277px;
+  }
+
+  section.part1 div.principal-secondary-btn-container div.tprincipal{
+    font-size: 34px;
+    }
+    
+    section.part1 div.principal-secondary-btn-container div.tsecundari{
+      font-size: 34px;
+    }
 }
