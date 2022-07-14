@@ -1,4 +1,7 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: "Gentium Book Plus", serif;
@@ -225,6 +228,12 @@ header .login-wallet-container {
 
       .top-collection-container{
         display: flex;
+        width: 95%;
+        margin-top: 5%;
+      }
+
+      .top-collection-container h2 {
+        width: 50%;
       }
 
 
@@ -253,6 +262,8 @@ header .login-wallet-container {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
       }
 
       .user {
@@ -309,28 +320,43 @@ header .login-wallet-container {
 /* Estilos del footer................................................................................................... */
 
 footer {
-  display: flex;
   background-color: #c5e1a5;
   text-align: center;
-  margin: 0 auto;
 }
 
 .footer-main-container {
   border: 1px solid red;
-  width: 100%;
+  width: 95%;
+  max-width: 920px;
+  margin: 0 auto;
 }
 
 .footer-first-column {
   border: 1px solid blue;
+  padding: 5% 0;
 }
 
+.footer-first-column div {
+border: 1px solid red;
+width: 95%;
+margin: 0 auto;
+}
 .copy-footer {
   border: 1px solid violet;
   margin-top: 20px;
 }
 
+.copy-footer .isotipo {
+  width: 20%;
+  max-width: 100px;
+  max-height: 150px;
+}
+
 .copy-footer p {
   padding: 5px;
+  width: 75%;
+  max-width: 280px;
+  margin: 1% auto;
 }
 
 .lista1 {
@@ -359,9 +385,31 @@ ul {
   padding: 0;
 }
 
+footer .footer-main-container .social-media-container a {
+  padding: 0 2%;
+  color: black;
+  font-size: 25px;
+}
+
 /* Termina los estilos del footer........................................................................................ */
 
 /* Medias queries */
+
+@media (min-width: 600px) {
+    footer p {
+      font-size: 1.1rem;
+    }
+
+    footer h5 {
+      font-size: 1.3rem;
+    }
+
+    footer div ul li {
+      font-size: 1.1rem;
+    }
+}
+
+
 @media (min-width: 768px) {
 
   header  {
@@ -429,6 +477,69 @@ ul {
     align-items: flex-end;
   }
 
+  footer .footer-main-container .footer-first-column {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  footer .footer-main-container .footer-first-column .copy-footer, img, p{
+    margin: auto 0;
+  }
+
+  footer .footer-main-container .footer-first-column div{
+     width: 47%;
+  }
+
+  footer .footer-main-container .footer-first-column .listas {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  footer .footer-main-container .footer-first-column .listas .div {
+    width: 44%;
+  }
+
+  footer .footer-main-container .footer-first-column .listas div.lista3 {
+    margin: 0 auto;
+  }
+
+  
+  
+  @media (min-width: 1000px) {
+    footer .footer-main-container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 95%;
+    }
+
+    footer .footer-main-container .footer-first-column {
+      justify-content: space-between;
+    }
+      
+    footer .footer-main-container .footer-first-column .copy-footer {
+
+      width: 35%;
+    } 
+
+    footer .footer-main-container .footer-first-column .listas {
+      width: 55%;
+      border: 1px solid red;
+    }
+
+    footer .footer-main-container .footer-first-column .listas div {
+      width: 32%;
+    }
+
+    footer .footer-main-container .footer-first-column {
+      width: 79%;
+    }
+
+    footer .footer-main-container .social-media-container {
+      width: 20%;
+    }
+    
+
+  }
 
   
 }

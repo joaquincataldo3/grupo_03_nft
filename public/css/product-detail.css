@@ -48,6 +48,16 @@ main .main-top-section-container .product-image-description-container .collectio
     text-align: left;
 } 
 
+.main-top-section-container .product-description {
+    width: 90%;
+    border: 1px solid green;
+    margin: 0 auto;
+}
+
+.main-top-section-container .product-description div {
+    margin-top: 4%
+}
+
 @media (min-width: 769px){
 
     main .main-top-section-container .product-image-description-container {
