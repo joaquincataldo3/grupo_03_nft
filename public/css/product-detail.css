@@ -2,14 +2,19 @@ main {
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 main .main-top-section-container .product-image-description-container {
     border: 1px solid red;
     width: 90%;
-    margin: 0px auto;
+    margin: 5% auto 0;
 }
 
 main .main-top-section-container .product-image-description-container .main-title-img-container h5, h4 {
     text-align: left;
+    padding: 2% 0;
 }
 
 main .main-top-section-container .product-image-description-container img {
@@ -48,14 +53,25 @@ main .main-top-section-container .product-image-description-container .collectio
     text-align: left;
 } 
 
-.main-top-section-container .product-description {
+.main-top-section-container .product-description-buy-container {
     width: 90%;
     border: 1px solid green;
     margin: 0 auto;
 }
 
-.main-top-section-container .product-description div {
-    margin-top: 4%
+.main-top-section-container .product-description-buy-container .description-global-container div {
+    margin-top: 3%;
+}
+
+.main-top-section-container .product-description-buy-container .make-offer {
+    margin: 10% 0;
+}
+
+.main-top-section-container .product-description-buy-container .make-offer a {
+   border: 1px solid gray;
+   background-color: white;
+   color: #6f8853;
+   padding: 2% 5%;
 }
 
 @media (min-width: 769px){
@@ -86,6 +102,30 @@ main .main-top-section-container .product-image-description-container .collectio
         margin: 0px auto;
         width: 95%;
         text-align: left;
+    }
+
+    main .main-top-section-container .collection-container div {
+        width: 100%;
+    }
+
+    main .main-top-section-container .product-description-buy-container {
+        width: 95%;
+        margin: 0 auto 5%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .main-top-section-container .product-description-buy-container .description-global-container {
+        width: 60%;
+    }
+
+    main .main-top-section-container .product-description-buy-container div p {
+        text-align: left;
+        margin-top: 0;
+    }
+
+    main .main-top-section-container .product-description-buy-container .make-offer {
+        width: 40%;
     }
 
 
