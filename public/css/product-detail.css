@@ -1,132 +1,252 @@
 main {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 main .main-top-section-container .product-image-description-container {
-    border: 1px solid red;
-    width: 90%;
-    margin: 5% auto 0;
+  width: 90%;
+  margin: 5% auto 0;
 }
 
-main .main-top-section-container .product-image-description-container .main-title-img-container h5, h4 {
-    text-align: left;
-    padding: 2% 0;
+main
+  .main-top-section-container
+  .product-image-description-container
+  .main-title-img-container
+  h4,
+h3 {
+  text-align: left;
+  padding: 2% 0;
 }
 
 main .main-top-section-container .product-image-description-container img {
-    width: 100%
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid black;
 }
 
-main .main-top-section-container .product-image-description-container .collection-container {
-    border: 1px solid grey;
-    width: 90%;
-    border-radius: 5%;
-    margin: 1% auto;
+main
+  .main-top-section-container
+  .product-image-description-container
+  .collection-container {
+  width: 100%;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 10px;
 }
 
-
-main .main-top-section-container .product-image-description-container .collection-container div .nft-collection-title {
-    width: 100%;
-    text-align: left;
-
+main
+  .main-top-section-container
+  .product-image-description-container
+  .collection-container
+  div
+  .nft-collection-title {
+  text-align: left;
+  padding: 10px;
 }
 
-
-.current-price, .price-history, .listings,
-.offers  {
-     border: 1px solid gray;
-     border-radius: 15%;
-     margin-top: 2%;
+.current-price,
+.price-history,
+.listings,
+.offers {
+  margin-top: 2%;
 }
 
-
-main .main-top-section-container .product-image-description-container .collection-container div p {
-    width: 35%;
+.current-price,
+.price-history,
+.listings {
+  border-bottom: 1px solid gray;
 }
 
-main .main-top-section-container .product-image-description-container .collection-container div .nft-collection-subtitle {
-    margin: 15px 0px;
-    text-align: left;
-} 
+body
+  > main
+  > section
+  > div.product-image-description-container
+  > div.collection-container
+  > div.current-price
+  > p.nft-collection-title {
+  font-weight: 600;
+}
+
+body
+  > main
+  > section
+  > div.product-image-description-container
+  > div.collection-container
+  > div.price-history
+  > p.nft-collection-title {
+  font-weight: 600;
+}
+
+body
+  > main
+  > section
+  > div.product-image-description-container
+  > div.collection-container
+  > div.listings
+  > p.nft-collection-title {
+  font-weight: 600;
+}
+
+body
+  > main
+  > section
+  > div.product-image-description-container
+  > div.collection-container
+  > div.offers
+  > p.nft-collection-title {
+  font-weight: 600;
+}
+
+body
+  > main
+  > section
+  > div.product-description-buy-container
+  > div.description-global-container
+  > div:nth-child(1)
+  > p:nth-child(1) {
+  font-weight: 600;
+}
+
+body
+  > main
+  > section
+  > div.product-description-buy-container
+  > div.description-global-container
+  > div:nth-child(2)
+  > p:nth-child(1) {
+  font-weight: 600;
+}
+
+body
+  > main
+  > section
+  > div.product-description-buy-container
+  > div.description-global-container
+  > div:nth-child(3)
+  > p:nth-child(1) {
+  font-weight: 600;
+}
+
+body
+  > main
+  > section
+  > div.product-description-buy-container
+  > div.description-global-container
+  > div:nth-child(4)
+  > p:nth-child(1) {
+  font-weight: 600;
+}
+main
+  .main-top-section-container
+  .product-image-description-container
+  .collection-container
+  div
+  .nft-collection-subtitle {
+  text-align: left;
+  padding: 10px 10px 10px 30px;
+}
 
 .main-top-section-container .product-description-buy-container {
-    width: 90%;
-    border: 1px solid green;
-    margin: 0 auto;
+  width: 90%;
+
+  margin: 0 auto;
 }
 
-.main-top-section-container .product-description-buy-container .description-global-container div {
-    margin-top: 3%;
+.main-top-section-container
+  .product-description-buy-container
+  .description-global-container
+  div {
+  margin-top: 3%;
 }
 
 .main-top-section-container .product-description-buy-container .make-offer {
-    margin: 10% 0;
+  margin: 10% 0;
 }
 
 .main-top-section-container .product-description-buy-container .make-offer a {
-   border: 1px solid gray;
-   background-color: white;
-   color: #6f8853;
-   padding: 2% 5%;
+  background-color: white;
+  color: #6f8853;
+  padding: 2% 5%;
 }
 
-@media (min-width: 769px){
+@media (min-width: 769px) {
+  main .main-top-section-container .product-image-description-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+  }
 
-    main .main-top-section-container .product-image-description-container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 95%;
-    }
+  .main-top-section-container .product-image-description-container {
+    width: 100%;
+  }
 
-    .main-top-section-container .product-image-description-container {
-        width: 100%;
-    }
+  .main-top-section-container
+    .product-image-description-container
+    .main-title-img-container {
+    width: 52%;
+  }
 
-    
-    .main-top-section-container .product-image-description-container .main-title-img-container {
-        width: 52%;
-    }
-    
-    main .main-top-section-container .product-image-description-container .collection-container {
-        width: 40%;
-        margin-top: 15%;
-        align-items: flex-end;
-    }
+  main
+    .main-top-section-container
+    .product-image-description-container
+    .collection-container {
+    width: 40%;
+    margin-top: 15%;
+    align-items: flex-end;
+  }
 
-    main .main-top-section-container .collection-container {
-        border: 1px solid red;
-        margin: 0px auto;
-        width: 95%;
-        text-align: left;
-    }
+  main .main-top-section-container .collection-container {
+    margin: 0px auto;
+    width: 95%;
+    text-align: left;
+  }
 
-    main .main-top-section-container .collection-container div {
-        width: 100%;
-    }
+  main .main-top-section-container .collection-container div {
+    width: 100%;
+  }
 
-    main .main-top-section-container .product-description-buy-container {
-        width: 95%;
-        margin: 0 auto 5%;
-        display: flex;
-        flex-wrap: wrap;
-    }
+  main .main-top-section-container .product-description-buy-container {
+    width: 95%;
+    margin: 0 auto 5%;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    main .main-top-section-container .product-description-buy-container .description-global-container {
-        width: 60%;
-    }
+  main
+    .main-top-section-container
+    .product-description-buy-container
+    .description-global-container {
+    width: 60%;
+  }
 
-    main .main-top-section-container .product-description-buy-container div p {
-        text-align: left;
-        margin-top: 0;
-    }
+  main .main-top-section-container .product-description-buy-container div p {
+    text-align: left;
+    margin-top: 0;
+  }
 
-    main .main-top-section-container .product-description-buy-container .make-offer {
-        width: 40%;
-    }
+  main
+    .main-top-section-container
+    .product-description-buy-container
+    .make-offer {
+    width: 40%;
+  }
+}
 
+/* Small screens*/
+@media (min-width: 576px) {
+}
 
-} 
+/* Medium screens*/
+@media (min-width: 576px) {
+}
+
+/* Large screens*/
+@media (min-width: 992px) {
+}
+
+/* Xtra-Large screens*/
+@media (min-width: 1200px) {
+}

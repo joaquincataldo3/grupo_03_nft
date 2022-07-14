@@ -60,256 +60,249 @@ header .login-wallet-container {
 
 /* Estilos del main..................................................................................................... */
 
-      main {
-        background-color: #ebebeb;
-        text-align: center;
-        margin: 0 auto;
-      }
-      
-      /* Parte 1 del main................................. */
-
-      body main section.part1{
-        background-image: url("../public/imgs/future.jpg");
-      }
-
-      body main section div.tprincipal{
-        text-align: center;
-      }
-
-      body main section div.tsecundari p{
-        text-align: center;
-      }
-
-      .explore-create-container{
-       padding: 2px;
-      }
-      .btn{
-        width: 20%;
-        padding:10px ;
-        background-color:rgb(4, 67, 130);
-        color: white;
-        margin-right: 10px;
-        border: none;
-        border-radius: 5px 5px 5px 5px;
-      }
-
-      .btn-2{
-        width: 20%;
-        padding:10px ;
-        background-color: white;
-        color: rgb(4, 67, 130);
-        border: none;
-        border-radius: 5px 5px 5px 5px;
-      }
-
-      section.part1 div.nft-principal-container article{
-       /*  border: 1px solid red; */
-        background-color: rgba(102, 102, 102, 0.519);
-        width: 70%;
-        /* margin: 10px; */
-        /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
-        margin: auto;
-        border-radius: 10px 10px 10px 10px;
-
-      }
-
-      article div.main-article{
-        /* border: 1px solid red; */
-        text-align: center;
-        /* width: 100%; */
-        display: flex;
-        flex-wrap: wrap;
-        /* align-items: baseline; */
-        /* border-top: 1px solid #ebebeb; */
-        /* position: relative; */
-        padding-bottom: 7px;
-        /* justify-content: space-between; */
-        /* border-radius: 0px 0px 0px 5px; */
-        margin: 0px;
-      }
-
-
-      div.nft-principal-container article div img{
-        width: 15%;
-        margin: auto;
-      }
-
-      p.collection{
-        width: 77%;
-        font-size: 14px;
-        margin-left: 0px;
-        display: flex;
-        justify-content: flex-start;
-        margin-top: 8px;
-
-      }
-
-      p.autor{
-        width: 30%;
-        margin-top: -13px;
-        font-size: 8px;
-        display: flex;
-        /* align-items: flex-start; */
-        justify-content: flex-end;
-        margin-left: 15px;
-    }
-      
-
-      main section article img{
-        width: 100%;
-      padding: auto;
-      border-radius: 10px 10px 0px 0px;
-      /* border-bottom: 1px solid #ebebeb; */
-      }
-
-      body main section div.nft-principal-container {
-        /* border: 1px solid orange; */
-        width: auto;
-        text-align: center;
-        width: auto;
-        margin-top: 30px;
-        margin-bottom: 30px;
+main {
+  background-color: #ebebeb;
+  text-align: center;
+  margin: 0 auto;
 }
-      /* Parte 2 del main......................................... */
 
-      section.part2 div.nft-secondary-container article{
-        width: 70%;
-        margin: auto;
-        border-radius: 10px 10px 10px 10px;
-        /* margin-bottom: 20px; */
-        margin-bottom: -50px;
-      }
+/* Parte 1 del main................................. */
 
-      section.part2 div.nft-secondary-container article p.feet1{
-        position: relative;
-        top: -81px;
-        left: 4px;
-        font-size: 20px;
-        font-weight: bold;
-        color: white;
-        width: 169px;
-      }
+body main section.part1 {
+  background-image: url("../public/imgs/future.jpg");
+}
 
-      section.part2 div.nft-secondary-container article p.feet2{
-        position: relative;
-        top: -81px;
-        left: 4px;
-        font-size: 20px;
-        font-weight: bold;
-        color: white;
-        width: 169px;
-      }
+body main section div.tprincipal {
+  text-align: center;
+}
 
-      section.part2 div.nft-secondary-container article p.feet3{
-        position: relative;
-        top: -57px;
-        left: 4px;
-        font-size: 20px;
-        font-weight: bold;
-        color: white;
-        width: 250px;
-      }
+body main section div.tsecundari p {
+  text-align: center;
+}
 
-      section.part2 div.nft-secondary-container article img{
-        border-radius: 10px 10px 10px 10px;
-        margin-top: 10px;
-      }
+.explore-create-container {
+  padding: 2px;
+}
+.btn {
+  width: 20%;
+  padding: 10px;
+  background-color: rgb(4, 67, 130);
+  color: white;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}
 
-      div.nft-secondary-container article:nth-child(2) img{
-        max-height: 100%;
-        max-width: 100%;
-      }
+.btn-2 {
+  width: 20%;
+  padding: 10px;
+  background-color: white;
+  color: rgb(4, 67, 130);
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}
 
-      div.nft-secondary-container article:nth-child(3) img{
-        max-height: 100%;
-        max-width: 100%;
-      }
-      /* Parte 3 del main......................................... */
+section.part1 div.nft-principal-container article {
+  /*  border: 1px solid red; */
+  background-color: rgba(102, 102, 102, 0.519);
+  width: 70%;
+  /* margin: 10px; */
+  /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
+  margin: auto;
+  border-radius: 10px 10px 10px 10px;
+}
 
-      .top-collection-container{
-        display: flex;
-      }
+article div.main-article {
+  /* border: 1px solid red; */
+  text-align: center;
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: baseline; */
+  /* border-top: 1px solid #ebebeb; */
+  /* position: relative; */
+  padding-bottom: 7px;
+  /* justify-content: space-between; */
+  /* border-radius: 0px 0px 0px 5px; */
+  margin: 0px;
+}
 
-      .top-collection-container 
+div.nft-principal-container article div img {
+  width: 15%;
+  margin: auto;
+}
 
+p.collection {
+  width: 77%;
+  font-size: 14px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 8px;
+}
 
-      body main section.part3 div h2:nth-child(1){
-        margin: auto;
-      }
+p.autor {
+  width: 30%;
+  margin-top: -13px;
+  font-size: 8px;
+  display: flex;
+  /* align-items: flex-start; */
+  justify-content: flex-end;
+  margin-left: 15px;
+}
 
-      body main section.part3 div h2.last{
-        position: absolute;
-      }
+main section article img {
+  width: 100%;
+  padding: auto;
+  border-radius: 10px 10px 0px 0px;
+  /* border-bottom: 1px solid #ebebeb; */
+}
 
-      #last{
-        /* position: absolute; */
-        border: none;
-        /* left: -30px;
+body main section div.nft-principal-container {
+  /* border: 1px solid orange; */
+  width: auto;
+  text-align: center;
+  width: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* Parte 2 del main......................................... */
+
+section.part2 div.nft-secondary-container article {
+  width: 70%;
+  margin: auto;
+  border-radius: 10px 10px 10px 10px;
+  /* margin-bottom: 20px; */
+  margin-bottom: -50px;
+}
+
+section.part2 div.nft-secondary-container article p.feet1 {
+  position: relative;
+  top: -81px;
+  left: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width: 169px;
+}
+
+section.part2 div.nft-secondary-container article p.feet2 {
+  position: relative;
+  top: -81px;
+  left: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width: 169px;
+}
+
+section.part2 div.nft-secondary-container article p.feet3 {
+  position: relative;
+  top: -57px;
+  left: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width: 250px;
+}
+
+section.part2 div.nft-secondary-container article img {
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 10px;
+}
+
+div.nft-secondary-container article:nth-child(2) img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+div.nft-secondary-container article:nth-child(3) img {
+  max-height: 100%;
+  max-width: 100%;
+}
+/* Parte 3 del main......................................... */
+
+.top-collection-container {
+  display: flex;
+}
+
+.top-collection-container body main section.part3 div h2:nth-child(1) {
+  margin: auto;
+}
+
+body main section.part3 div h2.last {
+  position: absolute;
+}
+
+#last {
+  /* position: absolute; */
+  border: none;
+  /* left: -30px;
         bottom: 0px; */
-        font-weight: bold;
-        text-decoration: underline;
-        font-size: 20px;
-        background: none;
-        color:rgb(4, 67, 130) ;
-      }
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+  background: none;
+  color: rgb(4, 67, 130);
+}
 
-      .collection-container{
-        border: 3px solid blue;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        width: 95%;
-        margin: 0 auto;
-      }
+.collection-container {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
 
-      .user {
-        border: 3px solid orange;
-        width: 100%;
-        display: flex;
-        
-        margin: auto;
-      }
+.user {
+  border: 3px solid orange;
+  width: 100%;
+  display: flex;
 
-     div.user-container article h4.number{
-      margin-right: 8px;
-      margin-left: 10px;
-     }
+  margin: auto;
+}
 
-      .img-nft-user{
-        width: 50px;
-        height: 50px;
-        border-radius: 90%;
-      }
+div.user-container article h4.number {
+  margin-right: 8px;
+  margin-left: 10px;
+}
 
-      .name-floor-container{
-        width: 60%;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-top: -16px;
-      }
+.img-nft-user {
+  width: 50px;
+  height: 50px;
+  border-radius: 90%;
+}
 
-      div.user-container article div h5.name{
-        width: 100%;
-      }
+.name-floor-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: -16px;
+}
 
-     div.user-container article div p.floor{
-      width: 101%;
-      margin-top: -16px;
-      font-size: 14px;
-     }
+div.user-container article div h5.name {
+  width: 100%;
+}
 
-     .percent-price-container{
-        width: 20%;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-top: -16px;
-     }
+div.user-container article div p.floor {
+  width: 101%;
+  margin-top: -16px;
+  font-size: 14px;
+}
+
+.percent-price-container {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: -16px;
+}
 
 /* Termina estilos del main............................................................................................. */
 
@@ -333,9 +326,9 @@ footer {
 }
 
 .footer-first-column div {
-border: 1px solid red;
-width: 95%;
-margin: 0 auto;
+  border: 1px solid red;
+  width: 95%;
+  margin: 0 auto;
 }
 .copy-footer {
   border: 1px solid violet;
@@ -392,23 +385,21 @@ footer .footer-main-container .social-media-container a {
 /* Medias queries */
 
 @media (min-width: 600px) {
-    footer p {
-      font-size: 1.1rem;
-    }
+  footer p {
+    font-size: 1.1rem;
+  }
 
-    footer h5 {
-      font-size: 1.3rem;
-    }
+  footer h5 {
+    font-size: 1.3rem;
+  }
 
-    footer div ul li {
-      font-size: 1.1rem;
-    }
+  footer div ul li {
+    font-size: 1.1rem;
+  }
 }
 
-
 @media (min-width: 768px) {
-
-  header  {
+  header {
     display: flex;
   }
 
@@ -416,7 +407,7 @@ footer .footer-main-container .social-media-container a {
     width: 17%;
   }
 
-  body header div.search-lupa-container{
+  body header div.search-lupa-container {
     width: 30%;
   }
 
@@ -434,29 +425,29 @@ footer .footer-main-container .social-media-container a {
     align-items: flex-end;
     margin-top: -21px;
     margin-left: -20px;
-    }
-
-    header .search-bar-container {
-      align-self: center;
-      width: 100%;
   }
 
-  header .nav-bar{
+  header .search-bar-container {
+    align-self: center;
+    width: 100%;
+  }
+
+  header .nav-bar {
     display: flex;
     width: 30%;
     justify-content: space-around;
   }
 
-  header .nav-bar ul{
+  header .nav-bar ul {
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
   }
 
-  header .nav-bar ul li{
+  header .nav-bar ul li {
     padding: 8px;
-    }
-  
+  }
+
   header .login-wallet-container {
     display: flex;
     width: 9%;
@@ -464,7 +455,7 @@ footer .footer-main-container .social-media-container a {
     font-size: 30px;
     justify-content: space-around;
   }
-  
+
   header .burger-menu {
     border: 1px solid purple;
     width: 70px;
@@ -478,12 +469,14 @@ footer .footer-main-container .social-media-container a {
     flex-wrap: wrap;
   }
 
-  footer .footer-main-container .footer-first-column .copy-footer, img, p{
+  footer .footer-main-container .footer-first-column .copy-footer,
+  img,
+  p {
     margin: auto 0;
   }
 
-  footer .footer-main-container .footer-first-column div{
-     width: 47%;
+  footer .footer-main-container .footer-first-column div {
+    width: 47%;
   }
 
   footer .footer-main-container .footer-first-column .listas {
@@ -499,8 +492,6 @@ footer .footer-main-container .social-media-container a {
     margin: 0 auto;
   }
 
-  
-  
   @media (min-width: 1000px) {
     footer .footer-main-container {
       display: flex;
@@ -511,11 +502,10 @@ footer .footer-main-container .social-media-container a {
     footer .footer-main-container .footer-first-column {
       justify-content: space-between;
     }
-      
-    footer .footer-main-container .footer-first-column .copy-footer {
 
+    footer .footer-main-container .footer-first-column .copy-footer {
       width: 35%;
-    } 
+    }
 
     footer .footer-main-container .footer-first-column .listas {
       width: 55%;
@@ -533,9 +523,5 @@ footer .footer-main-container .social-media-container a {
     footer .footer-main-container .social-media-container {
       width: 20%;
     }
-    
-
   }
-
-  
 }
