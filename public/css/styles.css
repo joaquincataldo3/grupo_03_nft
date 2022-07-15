@@ -218,12 +218,12 @@ div.nft-secondary-container article:nth-child(1) img {
 }
 
 div.nft-secondary-container article:nth-child(2) img {
-  width: 224;
+  /* width: auto */
   height: 331.138px;
 }
 
 div.nft-secondary-container article:nth-child(3) img {
-  width: 224;
+  /* width: auto */
   height: 331.138px;
 }
 
