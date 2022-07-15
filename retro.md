@@ -4,14 +4,14 @@
 
 **Lo que se hizo bien:**
 
--Se trabajó en equipo.
--Se llegó a tiempo con el trabajo.
+- Se trabajó en equipo.
+- Se llegó a tiempo con el trabajo.
 
 
 **Lo que se hizo mal:**
 
--Faltó comunicación.
--Faltó productividad.
+- Faltó comunicación.
+- Faltó productividad.
 
 **Qué se debería empezar a hacer:**
 
@@ -20,8 +20,8 @@
 
 **Qué se debería dejar de hacer:**
 
--Trabajar sin antes pactar puntos clave.
--Llegar justos con el tiempo.
+- Trabajar sin antes pactar puntos clave.
+- Llegar justos con el tiempo.
 
 ## Sprint 2
 
