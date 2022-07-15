@@ -8,9 +8,8 @@
 |:----------|:-------------|:------|:------|
 |Se hizo bien la repartición de las actividades de cada uno de los entregables que teniamos que tener.|Nos falta mas comunicación para poder llevar acabo los entregables.|Tener reuniones mas seguido.| |
 |La colaboración entre compañeros fue muy importante para lograr tener cosas importantes dentro de cada entregable.|Pocas reuniones en la semana, por disponibilidad de tiempo.|Levantar la mano desde el momento en que necesitamos y no dejar pasar mucho tiempo para atacar las necesidades.| |
-| |Levantar la mano y ser claros con que si podemos y que no podemos hacer.|Hablar mas por el chat del grupo para comunicar ciertas cosas.| |
-|Se llegó a tiempo.|Dejamos tareas para último momento.|Revisar los trabajos de los compañeros antes del día de la entrega.| |
-|Se incrementó la comunicación.| | | |
+|Se llegó a tiempo.|Levantar la mano y ser claros con que si podemos y que no podemos hacer.|Hablar mas por el chat del grupo para comunicar ciertas cosas.| |
+|Se incrementó la comunicación.|Dejamos tareas para último momento.|Revisar los trabajos de los compañeros antes del día de la entrega.| |
 
 
 
