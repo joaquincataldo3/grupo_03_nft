@@ -29,7 +29,9 @@ https://github.com/joaquincataldo3/grupo_03_nft
 
 https://trello.com/invite/grupo03nft/42547dac180644207a27c30035f8f134
 
-### [Retrospectivas](https://github.com/joaquincataldo3/grupo_03_nft/blob/main/retro.md)
+### Retrospectivas
+
+https://github.com/joaquincataldo3/grupo_03_nft/blob/main/retro.md
 
 ### Color palette
 
