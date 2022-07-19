@@ -18,7 +18,6 @@ header {
 }
 
 header .lupa {
-  border: 1px solid red;
   width: 70px;
   display: flex;
   justify-content: center;
@@ -26,7 +25,6 @@ header .lupa {
 }
 
 header .burger-menu {
-  border: 1px solid purple;
   width: 70px;
   display: flex;
   justify-content: center;
@@ -43,7 +41,6 @@ header .search-bar-container .search-bar {
 }
 
 header .nav-bar {
-  border: 1px solid red;
   display: none;
 }
 
@@ -69,6 +66,7 @@ body main section.part1 {
 
 body main section div.tprincipal {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 body main section div.tsecundari p {
@@ -213,7 +211,6 @@ section.part2 div.nft-secondary-container article img {
 }
 
 div.nft-secondary-container article:nth-child(1) img {
-  width: 224px;
   height: 331.138px;
 }
 
@@ -353,25 +350,20 @@ footer {
 }
 
 .footer-main-container {
-  border: 1px solid red;
-  width: 95%;
-  max-width: 920px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .footer-first-column {
-  border: 1px solid blue;
   padding: 5% 0;
 }
 
 .footer-first-column div {
-  border: 1px solid red;
   width: 95%;
   margin: 0 auto;
 }
 
 .copy-footer {
-  border: 1px solid violet;
   margin-top: 20px;
 }
 
@@ -388,20 +380,7 @@ footer {
   margin: 1% auto;
 }
 
-.lista1 {
-  border: 1px solid black;
-}
-
-.lista2 {
-  border: 1px solid salmon;
-}
-
-.lista3 {
-  border: 1px solid pink;
-}
-
 .social-media-container {
-  border: 1px solid orange;
   margin-top: 20px;
 }
 
@@ -440,8 +419,6 @@ footer .footer-main-container .social-media-container a {
     width: 537.600;
     height: 537.600px;
   }
-
-
 }
 
 @media (min-width: 600px) {
@@ -479,13 +456,18 @@ footer .footer-main-container .social-media-container a {
   }
 
   header .lupa {
-    /* border: 1px solid red; */
+    
     width: 60px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     margin-top: -21px;
     margin-left: -20px;
+  }
+
+  section.part1 div.nft-principal-container {
+    display: flex;
+    width: 40%;
   }
 
   section.part2 div.nft-secondary-container {
@@ -564,7 +546,7 @@ footer .footer-main-container .social-media-container a {
   }
 
   header .nav-bar ul {
-    /* border: 1px solid red; */
+    
     display: flex;
     justify-content: space-around;
   }
@@ -582,11 +564,18 @@ footer .footer-main-container .social-media-container a {
   }
 
   header .burger-menu {
-    border: 1px solid purple;
     width: 70px;
     display: none;
     justify-content: center;
     align-items: flex-end;
+  }
+
+  /*.percent-price-container .percent {
+    margin-bottom: 45px;
+  }*/
+
+  .percent p {
+    margin-bottom: 15px;
   }
 
   footer .footer-main-container .footer-first-column {
@@ -626,11 +615,8 @@ footer .footer-main-container .social-media-container a {
     flex-direction: column;
     margin-left: 131px;
     width: 50%;
-    margin-top: 148px;
+    margin-top: 130px;
   }
-
-
-
 
   .explore-create-container {
     padding: 2px;
@@ -643,6 +629,16 @@ footer .footer-main-container .social-media-container a {
 }
 
 @media (min-width: 1000px) {
+
+  /*.featured-container {
+    margin-top: -170px;
+  }
+*/
+  .user .number h4 {
+    margin-right: 15px;
+  }
+
+
   footer .footer-main-container {
     display: flex;
     flex-wrap: wrap;
@@ -659,7 +655,6 @@ footer .footer-main-container .social-media-container a {
 
   footer .footer-main-container .footer-first-column .listas {
     width: 55%;
-    border: 1px solid red;
   }
 
   footer .footer-main-container .footer-first-column .listas div {
