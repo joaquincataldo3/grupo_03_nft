@@ -467,7 +467,7 @@ footer .footer-main-container .social-media-container a {
 
   section.part1 div.nft-principal-container {
     display: flex;
-    width: 40%;
+    width: 57%;
   }
 
   section.part2 div.nft-secondary-container {
@@ -613,15 +613,20 @@ footer .footer-main-container .social-media-container a {
   .principal-secondary-btn-container {
     display: flex;
     flex-direction: column;
-    margin-left: 131px;
+    /* margin-left: 131px; */
     width: 50%;
-    margin-top: 130px;
+    /* margin-top: 130px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    margin: auto;
   }
 
   .explore-create-container {
     padding: 2px;
     width: 348px;
-    margin: auto auto 103px;
+    margin: auto;
+    margin-top: 65px;
   }
 
 
@@ -698,6 +703,10 @@ footer .footer-main-container .social-media-container a {
     /* justify-content: space-around;*/
   }
 
+  section.part1 div.nft-principal-container {
+    display: flex;
+    width: 68%;
+  }
 
   div.nft-secondary-container article img {
     width: 286.6px;
@@ -712,7 +721,8 @@ footer .footer-main-container .social-media-container a {
   .explore-create-container {
     padding: 2px;
     width: 348px;
-    margin: auto auto 277px;
+    margin: auto;
+    margin-top: 65px;
   }
 
   section.part1 div.principal-secondary-btn-container div.tprincipal {
